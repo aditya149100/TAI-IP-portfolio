@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f0f0f0; /* Background color for the body */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 10px;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+    transition: transform 0.3s ease-in-out; /* Smooth transform on hover */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Lifts the section on hover */
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out; /* Smooth transform on hover */
+}
+
+#about img:hover {
+    transform: scale(1.1); /* Scales the image on hover */
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+    transition: transform 0.3s ease-in-out; /* Smooth transform on hover */
+}
+
+#skills li:hover {
+    transform: translateY(-5px); /* Lifts the item on hover */
+}
+
+.project {
+    background-color: #f4f4f4;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+    transition: transform 0.3s ease-in-out; /* Smooth transform on hover */
+}
+
+.project:hover {
+    transform: translateY(-5px); /* Lifts the project card on hover */
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out; /* Smooth transform on hover */
+}
+
+.project img:hover {
+    transform: scale(1.1); /* Scales the image on hover */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+    width: 100%;
+    bottom: 0;
+}
+
+/* Example of a gradient background */
+section#about {
+    background: linear-gradient(to bottom, #163116, #0f4312);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
